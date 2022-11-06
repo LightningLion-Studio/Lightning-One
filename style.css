@@ -1,0 +1,113 @@
+body {
+    background-color: rgb(246, 243, 243);
+}
+
+a {
+    text-decoration: none;
+}
+
+.head-title {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.138);
+}
+
+.rounded-carousel {
+    border-radius: 30px;
+}
+
+.t-a {
+    margin-top: auto;
+}
+
+.t-2 {
+    margin-top: 5px;
+}
+
+.t-3 {
+    margin-top: 20px;
+}
+
+.card {
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0px 50px 0 rgba(48, 55, 66, 0.317);
+    background-color: rgb(255, 255, 255);
+}
+
+.card-title {
+    font-size: 20px;
+}
+
+
+/* 消息卡片 */
+.msg-card-div {
+    border-radius: 30px;
+}
+
+.msg-head-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 1px 20px 0 rgba(48, 55, 66, 0.3);
+}
+
+.msg-card-text {
+    font-size: 18px;
+}
+
+.msg-card-img {
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+    padding: 10px;
+    min-width: 150px;
+}
+
+@media (max-width:615px) {
+    .test {
+        float: left;
+        width: 33%;
+        box-sizing: border-box;
+        padding: 10px;
+        min-width: 150px;
+    }
+}
+
+@media (max-width:465px) {
+    .test {
+        float: left;
+        width: 50%;
+        box-sizing: border-box;
+        padding: 10px;
+        min-width: 150px;
+    }
+}
+
+@media (max-width:315px) {
+    .test {
+        float: left;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px;
+
+    }
+}
+
+.msg-card-products {
+    background-color: #ffcccc;
+    box-shadow: 0 0px 50px 0 rgba(48, 55, 66, 0.3);
+}
+
+.msg-p-head-img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 -10px 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* 底部导航栏 */
+.bottom-nav {
+    height: 80px;
+    box-shadow: 0 13px 55px 1px rgba(48, 55, 66, 0.679);
+}
