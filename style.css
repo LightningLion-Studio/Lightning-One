@@ -146,7 +146,6 @@ a {
     align-items: center;
     box-sizing: border-box;
     background: white;
-    border-radius: 10px;
     padding: 20px;
     box-shadow: 0 13px 55px 1px rgba(48, 55, 66, 0.679);
 }
